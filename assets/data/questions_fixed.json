@@ -1,0 +1,984 @@
+{
+  "junior": [
+    {
+      "category": "git",
+      "question": "What command is used to initialize a new Git repository?",
+      "options": ["git start", "git init", "git create", "git new"],
+      "correct": 1,
+      "explanation": "git init creates a new Git repository in the current directory, setting up the .git folder and initial repository structure.",
+      "link": "https://git-scm.com/docs/git-init"
+    },
+    {
+      "category": "git",
+      "question": "How do you check the status of your Git repository?",
+      "options": ["git check", "git status", "git info", "git state"],
+      "correct": 1,
+      "explanation": "git status shows the current state of the working directory and staging area, including modified, staged, and untracked files.",
+      "link": "https://git-scm.com/docs/git-status"
+    },
+    {
+      "category": "git",
+      "question": "What command adds files to the staging area?",
+      "options": ["git commit", "git add", "git stage", "git push"],
+      "correct": 1,
+      "explanation": "git add moves changes from the working directory to the staging area, preparing them for commit.",
+      "link": "https://git-scm.com/docs/git-add"
+    },
+    {
+      "category": "git",
+      "question": "How do you create a new branch in Git?",
+      "options": ["git new branch", "git branch new", "git checkout -b", "git create -b"],
+      "correct": 2,
+      "explanation": "git checkout -b creates and switches to a new branch in one command.",
+      "link": "https://git-scm.com/docs/git-checkout"
+    },
+    {
+      "category": "git",
+      "question": "What does 'git clone' do?",
+      "options": ["Creates a copy of a local repository", "Downloads a remote repository", "Backs up your changes", "Merges branches"],
+      "correct": 1,
+      "explanation": "git clone creates a local copy of a remote repository, including all its history and branches.",
+      "link": "https://git-scm.com/docs/git-clone"
+    },
+    {
+      "category": "git",
+      "question": "How do you commit changes in Git?",
+      "options": ["git save", "git commit", "git push", "git store"],
+      "correct": 1,
+      "explanation": "git commit saves staged changes to the repository with a commit message.",
+      "link": "https://git-scm.com/docs/git-commit"
+    },
+    {
+      "category": "git",
+      "question": "What does 'git pull' do?",
+      "options": ["Downloads changes from remote", "Uploads changes to remote", "Creates a new branch", "Deletes a branch"],
+      "correct": 0,
+      "explanation": "git pull fetches and merges changes from the remote repository to your current branch.",
+      "link": "https://git-scm.com/docs/git-pull"
+    },
+    {
+      "category": "git",
+      "question": "How do you switch between branches?",
+      "options": ["git switch", "git checkout", "git change", "git move"],
+      "correct": 1,
+      "explanation": "git checkout switches between branches or commits in your repository.",
+      "link": "https://git-scm.com/docs/git-checkout"
+    },
+    {
+      "category": "git",
+      "question": "What command shows the commit history?",
+      "options": ["git history", "git log", "git show", "git list"],
+      "correct": 1,
+      "explanation": "git log displays the commit history of the current branch.",
+      "link": "https://git-scm.com/docs/git-log"
+    },
+    {
+      "category": "git",
+      "question": "How do you merge a branch into the current branch?",
+      "options": ["git merge <branch>", "git join <branch>", "git combine <branch>", "git add <branch>"],
+      "correct": 0,
+      "explanation": "git merge combines changes from the specified branch into the current branch.",
+      "link": "https://git-scm.com/docs/git-merge"
+    },
+    {
+      "category": "docker",
+      "question": "What file is used to define a Docker container configuration?",
+      "options": ["docker.yml", "Dockerfile", "container.conf", "docker.json"],
+      "correct": 1,
+      "explanation": "A Dockerfile contains instructions for building a Docker image, including the base image, dependencies, and commands to run.",
+      "link": "https://docs.docker.com/engine/reference/builder/"
+    },
+    {
+      "category": "docker",
+      "question": "Which command is used to build a Docker image?",
+      "options": ["docker create", "docker build", "docker make", "docker compile"],
+      "correct": 1,
+      "explanation": "docker build creates a Docker image from a Dockerfile and build context.",
+      "link": "https://docs.docker.com/engine/reference/commandline/build/"
+    },
+    {
+      "category": "docker",
+      "question": "How do you run a Docker container?",
+      "options": ["docker start", "docker run", "docker execute", "docker launch"],
+      "correct": 1,
+      "explanation": "docker run creates and starts a new container from a Docker image.",
+      "link": "https://docs.docker.com/engine/reference/commandline/run/"
+    },
+    {
+      "category": "docker",
+      "question": "What command lists all running Docker containers?",
+      "options": ["docker list", "docker ps", "docker show", "docker containers"],
+      "correct": 1,
+      "explanation": "docker ps shows all currently running containers. Use docker ps -a to see all containers including stopped ones.",
+      "link": "https://docs.docker.com/engine/reference/commandline/ps/"
+    },
+    {
+      "category": "docker",
+      "question": "What is a Docker image?",
+      "options": ["A running container", "A template for creating containers", "A configuration file", "A network setting"],
+      "correct": 1,
+      "explanation": "A Docker image is a read-only template that contains the application code, runtime, libraries, and dependencies needed to run an application.",
+      "link": "https://docs.docker.com/get-started/overview/#images"
+    },
+    {
+      "category": "docker",
+      "question": "How do you stop a running Docker container?",
+      "options": ["docker end", "docker stop", "docker kill", "docker terminate"],
+      "correct": 1,
+      "explanation": "docker stop gracefully stops a running container by sending a SIGTERM signal.",
+      "link": "https://docs.docker.com/engine/reference/commandline/stop/"
+    },
+    {
+      "category": "docker",
+      "question": "What is Docker Hub?",
+      "options": ["A development tool", "A container registry", "A monitoring service", "A networking tool"],
+      "correct": 1,
+      "explanation": "Docker Hub is a cloud-based registry service for sharing container images.",
+      "link": "https://docs.docker.com/docker-hub/"
+    },
+    {
+      "category": "docker",
+      "question": "What does the FROM instruction do in a Dockerfile?",
+      "options": ["Sets working directory", "Specifies base image", "Copies files", "Runs commands"],
+      "correct": 1,
+      "explanation": "FROM specifies the base image to use for building the Docker image.",
+      "link": "https://docs.docker.com/engine/reference/builder/#from"
+    },
+    {
+      "category": "docker",
+      "question": "What is Docker Compose?",
+      "options": ["A container runtime", "A tool for defining multi-container applications", "A monitoring tool", "A security scanner"],
+      "correct": 1,
+      "explanation": "Docker Compose is a tool for defining and running multi-container Docker applications using YAML configuration.",
+      "link": "https://docs.docker.com/compose/"
+    },
+    {
+      "category": "docker",
+      "question": "What command removes a Docker container?",
+      "options": ["docker delete", "docker remove", "docker rm", "docker del"],
+      "correct": 2,
+      "explanation": "docker rm removes one or more stopped containers.",
+      "link": "https://docs.docker.com/engine/reference/commandline/rm/"
+    },
+    {
+      "category": "linux",
+      "question": "Which command shows the current working directory?",
+      "options": ["pwd", "cd", "ls", "dir"],
+      "correct": 0,
+      "explanation": "pwd (print working directory) displays the full path of the current directory you are in.",
+      "link": "https://linux.die.net/man/1/pwd"
+    },
+    {
+      "category": "linux",
+      "question": "How do you list files in a directory?",
+      "options": ["dir", "list", "ls", "show"],
+      "correct": 2,
+      "explanation": "ls lists the contents of a directory. Use ls -la for detailed information including hidden files.",
+      "link": "https://linux.die.net/man/1/ls"
+    },
+    {
+      "category": "linux",
+      "question": "What command changes your current directory?",
+      "options": ["cd", "chdir", "move", "goto"],
+      "correct": 0,
+      "explanation": "cd (change directory) is used to navigate between directories in the filesystem.",
+      "link": "https://linux.die.net/man/1/cd"
+    },
+    {
+      "category": "linux",
+      "question": "How do you create a new directory?",
+      "options": ["create", "mkdir", "newdir", "makedir"],
+      "correct": 1,
+      "explanation": "mkdir creates new directories. Use mkdir -p to create parent directories as needed.",
+      "link": "https://linux.die.net/man/1/mkdir"
+    },
+    {
+      "category": "linux",
+      "question": "What command displays the contents of a file?",
+      "options": ["show", "cat", "display", "view"],
+      "correct": 1,
+      "explanation": "cat concatenates and displays file contents to standard output.",
+      "link": "https://linux.die.net/man/1/cat"
+    },
+    {
+      "category": "linux",
+      "question": "How do you copy files in Linux?",
+      "options": ["copy", "cp", "duplicate", "clone"],
+      "correct": 1,
+      "explanation": "cp copies files and directories from source to destination.",
+      "link": "https://linux.die.net/man/1/cp"
+    },
+    {
+      "category": "linux",
+      "question": "What command removes files?",
+      "options": ["delete", "remove", "rm", "del"],
+      "correct": 2,
+      "explanation": "rm removes files and directories. Use rm -rf for recursive deletion.",
+      "link": "https://linux.die.net/man/1/rm"
+    },
+    {
+      "category": "linux",
+      "question": "How do you check disk usage?",
+      "options": ["disk", "du", "space", "usage"],
+      "correct": 1,
+      "explanation": "du (disk usage) shows the amount of disk space used by files and directories.",
+      "link": "https://linux.die.net/man/1/du"
+    },
+    {
+      "category": "linux",
+      "question": "What command shows running processes?",
+      "options": ["proc", "ps", "show", "list"],
+      "correct": 1,
+      "explanation": "ps displays information about running processes.",
+      "link": "https://linux.die.net/man/1/ps"
+    },
+    {
+      "category": "linux",
+      "question": "How do you find files by name?",
+      "options": ["search", "find", "locate", "grep"],
+      "correct": 1,
+      "explanation": "find searches for files and directories based on various criteria including name.",
+      "link": "https://linux.die.net/man/1/find"
+    },
+    {
+      "category": "aws",
+      "question": "What does EC2 stand for in AWS?",
+      "options": ["Elastic Cloud Computing", "Elastic Compute Cloud", "Enhanced Cloud Computing", "Elastic Container Cloud"],
+      "correct": 1,
+      "explanation": "EC2 (Elastic Compute Cloud) is AWS service that provides resizable compute capacity in the cloud.",
+      "link": "https://aws.amazon.com/ec2/"
+    },
+    {
+      "category": "aws",
+      "question": "What is Amazon S3 used for?",
+      "options": ["Computing power", "Object storage", "Database hosting", "Load balancing"],
+      "correct": 1,
+      "explanation": "Amazon S3 (Simple Storage Service) is an object storage service for storing and retrieving data.",
+      "link": "https://aws.amazon.com/s3/"
+    },
+    {
+      "category": "aws",
+      "question": "What is AWS Lambda?",
+      "options": ["A database service", "A serverless compute service", "A monitoring tool", "A networking service"],
+      "correct": 1,
+      "explanation": "AWS Lambda lets you run code without provisioning or managing servers, charging only for compute time used.",
+      "link": "https://aws.amazon.com/lambda/"
+    },
+    {
+      "category": "aws",
+      "question": "What is an AWS VPC?",
+      "options": ["Virtual Private Cloud", "Virtual Public Cloud", "Very Private Cloud", "Virtual Processing Center"],
+      "correct": 0,
+      "explanation": "VPC (Virtual Private Cloud) provides a virtual network environment within AWS cloud.",
+      "link": "https://aws.amazon.com/vpc/"
+    },
+    {
+      "category": "aws",
+      "question": "What is Amazon RDS?",
+      "options": ["Redis Data Service", "Relational Database Service", "Remote Data Storage", "Real-time Data Stream"],
+      "correct": 1,
+      "explanation": "Amazon RDS is a managed relational database service that supports multiple database engines.",
+      "link": "https://aws.amazon.com/rds/"
+    },
+    {
+      "category": "aws",
+      "question": "What is AWS IAM?",
+      "options": ["Identity and Access Management", "Infrastructure Asset Management", "Internet Access Manager", "Internal API Manager"],
+      "correct": 0,
+      "explanation": "IAM manages user access and permissions to AWS resources securely.",
+      "link": "https://aws.amazon.com/iam/"
+    },
+    {
+      "category": "aws",
+      "question": "What is Amazon CloudWatch?",
+      "options": ["A security service", "A monitoring service", "A storage service", "A networking service"],
+      "correct": 1,
+      "explanation": "CloudWatch monitors AWS resources and applications, providing metrics, logs, and alarms.",
+      "link": "https://aws.amazon.com/cloudwatch/"
+    },
+    {
+      "category": "aws",
+      "question": "What is AWS ELB?",
+      "options": ["Elastic Load Balancer", "Enhanced Load Balancer", "External Load Balancer", "Elastic Link Balancer"],
+      "correct": 0,
+      "explanation": "ELB distributes incoming application traffic across multiple targets for high availability.",
+      "link": "https://aws.amazon.com/elasticloadbalancing/"
+    },
+    {
+      "category": "aws",
+      "question": "What is Amazon CloudFront?",
+      "options": ["A database service", "A content delivery network", "A compute service", "A storage service"],
+      "correct": 1,
+      "explanation": "CloudFront is a content delivery network (CDN) that delivers content with low latency and high transfer speeds.",
+      "link": "https://aws.amazon.com/cloudfront/"
+    },
+    {
+      "category": "aws",
+      "question": "What is AWS SNS?",
+      "options": ["Simple Network Service", "Simple Notification Service", "Secure Network Service", "System Notification Service"],
+      "correct": 1,
+      "explanation": "SNS is a messaging service for sending notifications to distributed systems and mobile devices.",
+      "link": "https://aws.amazon.com/sns/"
+    },
+    {
+      "category": "python",
+      "question": "What is pip in Python?",
+      "options": ["A Python interpreter", "A package installer", "A code editor", "A testing framework"],
+      "correct": 1,
+      "explanation": "pip is the standard package installer for Python, used to install packages from PyPI and other repositories.",
+      "link": "https://pip.pypa.io/en/stable/"
+    },
+    {
+      "category": "python",
+      "question": "What is a virtual environment in Python?",
+      "options": ["A cloud platform", "An isolated Python installation", "A testing framework", "A debugging tool"],
+      "correct": 1,
+      "explanation": "A virtual environment creates an isolated Python installation to manage dependencies separately for different projects.",
+      "link": "https://docs.python.org/3/tutorial/venv.html"
+    },
+    {
+      "category": "python",
+      "question": "How do you create a virtual environment in Python?",
+      "options": ["python -m venv myenv", "pip install venv", "python create env", "virtualenv install"],
+      "correct": 0,
+      "explanation": "python -m venv creates a new virtual environment using the built-in venv module.",
+      "link": "https://docs.python.org/3/tutorial/venv.html"
+    },
+    {
+      "category": "python",
+      "question": "What file lists Python project dependencies?",
+      "options": ["packages.txt", "requirements.txt", "dependencies.txt", "imports.txt"],
+      "correct": 1,
+      "explanation": "requirements.txt is the standard file for listing Python package dependencies and their versions.",
+      "link": "https://pip.pypa.io/en/stable/reference/requirements-file-format/"
+    },
+    {
+      "category": "python",
+      "question": "How do you install packages from requirements.txt?",
+      "options": ["pip install requirements.txt", "pip install -r requirements.txt", "python install requirements.txt", "pip -f requirements.txt"],
+      "correct": 1,
+      "explanation": "pip install -r requirements.txt installs all packages listed in the requirements file.",
+      "link": "https://pip.pypa.io/en/stable/reference/pip_install/"
+    },
+    {
+      "category": "python",
+      "question": "What is PyPI?",
+      "options": ["Python Package Index", "Python Programming Interface", "Python Project Index", "Python Package Installer"],
+      "correct": 0,
+      "explanation": "PyPI (Python Package Index) is the official repository for Python packages.",
+      "link": "https://pypi.org/"
+    },
+    {
+      "category": "python",
+      "question": "What is Flask in Python?",
+      "options": ["A testing framework", "A web framework", "A database library", "A deployment tool"],
+      "correct": 1,
+      "explanation": "Flask is a lightweight web framework for building web applications in Python.",
+      "link": "https://flask.palletsprojects.com/"
+    },
+    {
+      "category": "python",
+      "question": "What is Django in Python?",
+      "options": ["A testing framework", "A web framework", "A data analysis library", "A machine learning library"],
+      "correct": 1,
+      "explanation": "Django is a high-level web framework that encourages rapid development and clean design.",
+      "link": "https://www.djangoproject.com/"
+    },
+    {
+      "category": "python",
+      "question": "What is pytest?",
+      "options": ["A web framework", "A testing framework", "A package manager", "A code formatter"],
+      "correct": 1,
+      "explanation": "pytest is a testing framework that makes it easy to write simple and scalable test cases.",
+      "link": "https://docs.pytest.org/"
+    },
+    {
+      "category": "python",
+      "question": "What is the purpose of __init__.py files?",
+      "options": ["Configuration settings", "Package initialization", "Main program entry", "Import statements"],
+      "correct": 1,
+      "explanation": "__init__.py files mark directories as Python packages and can contain package initialization code.",
+      "link": "https://docs.python.org/3/tutorial/modules.html#packages"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is the main goal of DevOps?",
+      "options": ["Faster development", "Better collaboration between Dev and Ops", "Cost reduction", "More testing"],
+      "correct": 1,
+      "explanation": "DevOps aims to bridge the gap between development and operations teams, fostering collaboration and shared responsibility.",
+      "link": "https://aws.amazon.com/devops/what-is-devops/"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is Infrastructure as Code (IaC)?",
+      "options": ["Writing code for infrastructure", "Managing infrastructure through code", "Coding on servers", "Infrastructure documentation"],
+      "correct": 1,
+      "explanation": "IaC is the practice of managing and provisioning infrastructure through machine-readable definition files.",
+      "link": "https://en.wikipedia.org/wiki/Infrastructure_as_code"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is Continuous Integration?",
+      "options": ["Integrating code changes frequently", "Deploying continuously", "Monitoring continuously", "Testing continuously"],
+      "correct": 0,
+      "explanation": "Continuous Integration is the practice of frequently merging code changes into a central repository.",
+      "link": "https://aws.amazon.com/devops/continuous-integration/"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is the 'shift-left' principle?",
+      "options": ["Moving left in the UI", "Testing earlier in development", "Reducing team size", "Moving to cloud"],
+      "correct": 1,
+      "explanation": "Shift-left means moving testing, security, and quality checks earlier in the development lifecycle.",
+      "link": "https://devops.com/shift-left-approach-software-testing/"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is a deployment pipeline?",
+      "options": ["A network connection", "An automated process for software delivery", "A monitoring tool", "A testing framework"],
+      "correct": 1,
+      "explanation": "A deployment pipeline is an automated process that takes code from version control through various stages to production.",
+      "link": "https://continuousdelivery.com/foundations/deployment-pipeline/"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is the concept of 'Everything as Code'?",
+      "options": ["Writing more code", "Managing everything through code", "Code documentation", "Code reviews"],
+      "correct": 1,
+      "explanation": "Everything as Code means managing infrastructure, configurations, and processes through version-controlled code.",
+      "link": "https://www.hashicorp.com/resources/what-is-infrastructure-as-code"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is blue-green deployment?",
+      "options": ["Using colored servers", "Having two identical production environments", "A/B testing", "Color coding"],
+      "correct": 1,
+      "explanation": "Blue-green deployment uses two identical production environments to enable zero-downtime deployments.",
+      "link": "https://martinfowler.com/bliki/BlueGreenDeployment.html"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is the purpose of feature flags?",
+      "options": ["Marking features", "Controlling feature visibility", "Testing features", "Documenting features"],
+      "correct": 1,
+      "explanation": "Feature flags allow you to enable or disable features without deploying new code.",
+      "link": "https://martinfowler.com/articles/feature-toggles.html"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is immutable infrastructure?",
+      "options": ["Infrastructure that cannot change", "Infrastructure replaced rather than modified", "Permanent infrastructure", "Stable infrastructure"],
+      "correct": 1,
+      "explanation": "Immutable infrastructure is replaced entirely rather than being modified in place.",
+      "link": "https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure"
+    },
+    {
+      "category": "devops-principles",
+      "question": "What is the concept of fail-fast?",
+      "options": ["Failing quickly", "Detecting failures early", "Fast recovery", "Quick deployment"],
+      "correct": 1,
+      "explanation": "Fail-fast means detecting and addressing failures as early as possible in the development process.",
+      "link": "https://en.wikipedia.org/wiki/Fail-fast"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is observability?",
+      "options": ["Watching systems", "Understanding system state from outputs", "Monitoring dashboards", "Log analysis"],
+      "correct": 1,
+      "explanation": "Observability is the ability to understand the internal state of a system from its external outputs.",
+      "link": "https://en.wikipedia.org/wiki/Observability"
+    },
+    {
+      "category": "monitoring",
+      "question": "What are the three pillars of observability?",
+      "options": ["CPU, Memory, Disk", "Metrics, Logs, Traces", "Alerts, Dashboards, Reports", "Monitoring, Logging, Tracing"],
+      "correct": 1,
+      "explanation": "The three pillars of observability are Metrics, Logs, and Traces (distributed tracing).",
+      "link": "https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is an SLA?",
+      "options": ["Service Level Agreement", "System Load Average", "Service Log Analysis", "System Level Architecture"],
+      "correct": 0,
+      "explanation": "SLA defines the expected level of service between a provider and customer.",
+      "link": "https://en.wikipedia.org/wiki/Service-level_agreement"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is an SLO?",
+      "options": ["Service Level Output", "Service Level Objective", "System Level Operation", "Service Log Output"],
+      "correct": 1,
+      "explanation": "SLO is a target value or range for a service level measured by an SLI.",
+      "link": "https://sre.google/sre-book/service-level-objectives/"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is an SLI?",
+      "options": ["Service Level Indicator", "System Level Interface", "Service Log Index", "System Load Indicator"],
+      "correct": 0,
+      "explanation": "SLI is a quantitative measure of service performance (like response time or availability).",
+      "link": "https://sre.google/sre-book/service-level-objectives/"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is Prometheus?",
+      "options": ["A log aggregator", "A metrics monitoring system", "A trace collector", "A dashboard tool"],
+      "correct": 1,
+      "explanation": "Prometheus is an open-source metrics monitoring and alerting toolkit.",
+      "link": "https://prometheus.io/docs/introduction/overview/"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is Grafana?",
+      "options": ["A data collector", "A visualization platform", "A log analyzer", "A metrics database"],
+      "correct": 1,
+      "explanation": "Grafana is a multi-platform open source analytics and interactive visualization web application.",
+      "link": "https://grafana.com/docs/"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is the ELK stack?",
+      "options": ["Elasticsearch, Logstash, Kibana", "Elastic, Linux, Kubernetes", "Events, Logs, Kibana", "Elastic, Logs, Kinesis"],
+      "correct": 0,
+      "explanation": "ELK stack consists of Elasticsearch, Logstash, and Kibana for log management and analysis.",
+      "link": "https://www.elastic.co/what-is/elk-stack"
+    },
+    {
+      "category": "monitoring",
+      "question": "What is APM?",
+      "options": ["Application Performance Management", "Automated Process Management", "Application Process Monitor", "Advanced Performance Metrics"],
+      "correct": 0,
+      "explanation": "APM monitors and manages performance and availability of software applications.",
+      "link": "https://en.wikipedia.org/wiki/Application_performance_management"
+    },
+    {
+      "category": "monitoring",
+      "question": "What are the four golden signals of monitoring?",
+      "options": ["CPU, Memory, Disk, Network", "Latency, Traffic, Errors, Saturation", "Logs, Metrics, Traces, Events", "Availability, Performance, Security, Cost"],
+      "correct": 1,
+      "explanation": "The four golden signals (from Google SRE) are Latency, Traffic, Errors, and Saturation.",
+      "link": "https://sre.google/sre-book/monitoring-distributed-systems/"
+    },
+    {
+      "category": "network",
+      "question": "What is DNS?",
+      "options": ["Domain Name System", "Dynamic Network Service", "Data Network System", "Distributed Name Service"],
+      "correct": 0,
+      "explanation": "DNS translates human-readable domain names into IP addresses.",
+      "link": "https://en.wikipedia.org/wiki/Domain_Name_System"
+    },
+    {
+      "category": "network",
+      "question": "What is a load balancer?",
+      "options": ["A performance tool", "A traffic distribution system", "A monitoring tool", "A security device"],
+      "correct": 1,
+      "explanation": "A load balancer distributes incoming network traffic across multiple servers.",
+      "link": "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
+    },
+    {
+      "category": "network",
+      "question": "What is HTTP?",
+      "options": ["HyperText Transfer Protocol", "High Traffic Transfer Protocol", "HyperText Transport Protocol", "Host Transfer Protocol"],
+      "correct": 0,
+      "explanation": "HTTP is the protocol used for transferring web pages and other resources on the World Wide Web.",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTTP"
+    },
+    {
+      "category": "network",
+      "question": "What is HTTPS?",
+      "options": ["HTTP Secure", "HTTP System", "HTTP Standard", "HTTP Service"],
+      "correct": 0,
+      "explanation": "HTTPS is HTTP over SSL/TLS, providing encrypted communication.",
+      "link": "https://en.wikipedia.org/wiki/HTTPS"
+    },
+    {
+      "category": "network",
+      "question": "What is a CDN?",
+      "options": ["Content Delivery Network", "Central Data Network", "Content Distribution Node", "Central Delivery Network"],
+      "correct": 0,
+      "explanation": "A CDN is a distributed network of servers that deliver content to users based on their geographic location.",
+      "link": "https://en.wikipedia.org/wiki/Content_delivery_network"
+    },
+    {
+      "category": "network",
+      "question": "What is a firewall?",
+      "options": ["A monitoring tool", "A network security system", "A load balancer", "A content filter"],
+      "correct": 1,
+      "explanation": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic.",
+      "link": "https://en.wikipedia.org/wiki/Firewall_(computing)"
+    },
+    {
+      "category": "network",
+      "question": "What is an API?",
+      "options": ["Application Programming Interface", "Automated Program Interface", "Application Process Interface", "Advanced Programming Interface"],
+      "correct": 0,
+      "explanation": "An API is a set of protocols and tools for building software applications.",
+      "link": "https://en.wikipedia.org/wiki/API"
+    },
+    {
+      "category": "network",
+      "question": "What is REST?",
+      "options": ["Representational State Transfer", "Remote State Transfer", "Reliable State Transfer", "Representational System Transfer"],
+      "correct": 0,
+      "explanation": "REST is an architectural style for designing networked applications.",
+      "link": "https://en.wikipedia.org/wiki/Representational_state_transfer"
+    },
+    {
+      "category": "network",
+      "question": "What is a microservice?",
+      "options": ["A small application", "An architectural approach with small, independent services", "A monitoring service", "A container service"],
+      "correct": 1,
+      "explanation": "Microservices are an architectural approach where applications are built as a collection of small, independent services.",
+      "link": "https://microservices.io/"
+    },
+    {
+      "category": "network",
+      "question": "What is service discovery?",
+      "options": ["Finding new services", "Automatic detection of services in a network", "Service documentation", "Service monitoring"],
+      "correct": 1,
+      "explanation": "Service discovery is the automatic detection of devices and services offered by these devices on a computer network.",
+      "link": "https://en.wikipedia.org/wiki/Service_discovery"
+    },
+    {
+      "category": "github",
+      "question": "What is GitHub?",
+      "options": ["A Git hosting service", "A code editor", "A deployment tool", "A monitoring service"],
+      "correct": 0,
+      "explanation": "GitHub is a web-based hosting service for Git version control and collaboration.",
+      "link": "https://github.com/about"
+    },
+    {
+      "category": "github",
+      "question": "What is a GitHub repository?",
+      "options": ["A file storage", "A project container with Git history", "A user profile", "A code editor"],
+      "correct": 1,
+      "explanation": "A GitHub repository contains all project files and their revision history.",
+      "link": "https://docs.github.com/en/repositories"
+    },
+    {
+      "category": "github",
+      "question": "What is a pull request?",
+      "options": ["Downloading code", "A request to merge changes", "A code review", "A deployment request"],
+      "correct": 1,
+      "explanation": "A pull request is a method of submitting contributions to a project for review and merging.",
+      "link": "https://docs.github.com/en/pull-requests"
+    },
+    {
+      "category": "github",
+      "question": "What is GitHub Actions?",
+      "options": ["A code editor feature", "A CI/CD platform", "A project management tool", "A code review tool"],
+      "correct": 1,
+      "explanation": "GitHub Actions is a CI/CD platform that allows you to automate your build, test, and deployment pipeline.",
+      "link": "https://docs.github.com/en/actions"
+    },
+    {
+      "category": "github",
+      "question": "What is a GitHub fork?",
+      "options": ["A branch", "A copy of a repository", "A code merge", "A deployment"],
+      "correct": 1,
+      "explanation": "A fork is a copy of a repository that allows you to freely experiment with changes.",
+      "link": "https://docs.github.com/en/get-started/quickstart/fork-a-repo"
+    },
+    {
+      "category": "github",
+      "question": "What is GitHub Pages?",
+      "options": ["Documentation pages", "A static site hosting service", "User profiles", "Project wiki"],
+      "correct": 1,
+      "explanation": "GitHub Pages is a static site hosting service that takes files from a GitHub repository and publishes a website.",
+      "link": "https://pages.github.com/"
+    },
+    {
+      "category": "github",
+      "question": "What is a GitHub issue?",
+      "options": ["A problem in code", "A way to track tasks and bugs", "A security vulnerability", "A merge conflict"],
+      "correct": 1,
+      "explanation": "GitHub Issues are a way to track tasks, enhancements, and bugs for projects.",
+      "link": "https://docs.github.com/en/issues"
+    },
+    {
+      "category": "github",
+      "question": "What is GitHub CLI?",
+      "options": ["A code editor", "A command-line tool for GitHub", "A desktop application", "A web interface"],
+      "correct": 1,
+      "explanation": "GitHub CLI is a command-line tool that brings GitHub functionality to your terminal.",
+      "link": "https://cli.github.com/"
+    },
+    {
+      "category": "github",
+      "question": "What is a GitHub release?",
+      "options": ["A code deployment", "A packaged version of software", "A bug fix", "A feature update"],
+      "correct": 1,
+      "explanation": "GitHub releases are a way to package software, release notes, and links to binary files for others to use.",
+      "link": "https://docs.github.com/en/repositories/releasing-projects-on-github"
+    },
+    {
+      "category": "github",
+      "question": "What is GitHub Copilot?",
+      "options": ["A project management tool", "An AI-powered code assistant", "A code review tool", "A deployment service"],
+      "correct": 1,
+      "explanation": "GitHub Copilot is an AI pair programmer that helps you write code faster.",
+      "link": "https://github.com/features/copilot"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab?",
+      "options": ["A Git hosting service", "A code editor", "A deployment tool", "A monitoring service"],
+      "correct": 0,
+      "explanation": "GitLab is a web-based DevOps lifecycle tool that provides Git repository management and CI/CD features.",
+      "link": "https://about.gitlab.com/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab CI/CD?",
+      "options": ["Version control system", "Issue tracking tool", "Continuous Integration/Deployment platform", "Code review tool"],
+      "correct": 2,
+      "explanation": "GitLab CI/CD is an integrated platform for automating software build, test, and deployment processes.",
+      "link": "https://docs.gitlab.com/ee/ci/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What file defines GitLab CI/CD pipelines?",
+      "options": [".gitlab-ci.yml", ".gitlab.yml", "gitlab-ci.yaml", "pipeline.yml"],
+      "correct": 0,
+      "explanation": ".gitlab-ci.yml is the configuration file that defines CI/CD pipelines in GitLab.",
+      "link": "https://docs.gitlab.com/ee/ci/yaml/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is a GitLab runner?",
+      "options": ["A deployment tool", "An agent that executes CI/CD jobs", "A monitoring service", "A code scanner"],
+      "correct": 1,
+      "explanation": "GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pipeline.",
+      "link": "https://docs.gitlab.com/runner/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab's merge request?",
+      "options": ["A deployment request", "A request to merge code changes", "A bug report", "A feature request"],
+      "correct": 1,
+      "explanation": "A merge request is GitLab's version of a pull request for proposing changes to be merged.",
+      "link": "https://docs.gitlab.com/ee/user/project/merge_requests/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab Registry?",
+      "options": ["A user registry", "A container image registry", "A package registry", "A DNS registry"],
+      "correct": 1,
+      "explanation": "GitLab Container Registry is a secure registry for Docker images integrated with GitLab.",
+      "link": "https://docs.gitlab.com/ee/user/packages/container_registry/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab Pages?",
+      "options": ["Documentation pages", "A static website hosting service", "User profiles", "Project wiki"],
+      "correct": 1,
+      "explanation": "GitLab Pages allows you to host static websites directly from a GitLab repository.",
+      "link": "https://docs.gitlab.com/ee/user/project/pages/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab's DevOps platform?",
+      "options": ["Just version control", "Complete DevOps lifecycle tool", "Only CI/CD", "Just issue tracking"],
+      "correct": 1,
+      "explanation": "GitLab provides a complete DevOps platform covering the entire software development lifecycle.",
+      "link": "https://about.gitlab.com/platform/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab Auto DevOps?",
+      "options": ["Manual deployment", "Automated CI/CD pipeline", "Code generation", "Automatic testing"],
+      "correct": 1,
+      "explanation": "Auto DevOps provides pre-configured CI/CD pipeline that automatically detects, builds, tests, and deploys applications.",
+      "link": "https://docs.gitlab.com/ee/topics/autodevops/"
+    },
+    {
+      "category": "gitlab",
+      "question": "What is GitLab Issue Board?",
+      "options": ["A dashboard", "A Kanban-style project management tool", "A code review board", "A deployment board"],
+      "correct": 1,
+      "explanation": "Issue Boards are a Kanban-like feature that allows you to visualize and manage issues.",
+      "link": "https://docs.gitlab.com/ee/user/project/issue_board.html"
+    },
+    {
+      "category": "gcp",
+      "question": "What does GCP stand for?",
+      "options": ["Google Cloud Platform", "Google Compute Platform", "Global Cloud Platform", "Google Cloud Processing"],
+      "correct": 0,
+      "explanation": "GCP stands for Google Cloud Platform, Google's suite of cloud computing services.",
+      "link": "https://cloud.google.com/"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google Compute Engine?",
+      "options": ["A container service", "A virtual machine service", "A database service", "A storage service"],
+      "correct": 1,
+      "explanation": "Compute Engine provides scalable, high-performance virtual machines running in Google's data centers.",
+      "link": "https://cloud.google.com/compute"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google Cloud Storage?",
+      "options": ["A database service", "An object storage service", "A compute service", "A networking service"],
+      "correct": 1,
+      "explanation": "Cloud Storage is a RESTful service for storing and accessing data on Google Cloud Platform.",
+      "link": "https://cloud.google.com/storage"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google Kubernetes Engine (GKE)?",
+      "options": ["A VM service", "A managed Kubernetes service", "A storage service", "A database service"],
+      "correct": 1,
+      "explanation": "GKE is a managed Kubernetes service that makes it easy to deploy, manage, and scale containerized applications.",
+      "link": "https://cloud.google.com/kubernetes-engine"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google Cloud Functions?",
+      "options": ["A container service", "A serverless compute service", "A database service", "A storage service"],
+      "correct": 1,
+      "explanation": "Cloud Functions is a serverless execution environment for building and connecting cloud services.",
+      "link": "https://cloud.google.com/functions"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google App Engine?",
+      "options": ["A VM service", "A serverless platform for applications", "A container service", "A database service"],
+      "correct": 1,
+      "explanation": "App Engine is a fully managed serverless platform for developing and hosting web applications at scale.",
+      "link": "https://cloud.google.com/appengine"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google Cloud IAM?",
+      "options": ["Identity and Access Management", "Infrastructure Asset Management", "Internet Access Manager", "Internal API Manager"],
+      "correct": 0,
+      "explanation": "Cloud IAM provides fine-grained access control and visibility for centrally managing cloud resources.",
+      "link": "https://cloud.google.com/iam"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google BigQuery?",
+      "options": ["A search engine", "A data warehouse service", "A compute service", "A storage service"],
+      "correct": 1,
+      "explanation": "BigQuery is a fully managed, serverless data warehouse that enables scalable analysis over petabytes of data.",
+      "link": "https://cloud.google.com/bigquery"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google Cloud Pub/Sub?",
+      "options": ["A database service", "A messaging service", "A storage service", "A compute service"],
+      "correct": 1,
+      "explanation": "Pub/Sub is a messaging service for building event-driven systems and streaming analytics.",
+      "link": "https://cloud.google.com/pubsub"
+    },
+    {
+      "category": "gcp",
+      "question": "What is Google Cloud Build?",
+      "options": ["A deployment tool", "A CI/CD service", "A monitoring service", "A storage service"],
+      "correct": 1,
+      "explanation": "Cloud Build is a service that executes builds on Google Cloud Platform infrastructure.",
+      "link": "https://cloud.google.com/build"
+    },
+    {
+      "category": "debug",
+      "question": "What is debugging?",
+      "options": ["Writing code", "Finding and fixing code errors", "Testing code", "Deploying code"],
+      "correct": 1,
+      "explanation": "Debugging is the process of finding and resolving defects or problems within a computer program.",
+      "link": "https://en.wikipedia.org/wiki/Debugging"
+    },
+    {
+      "category": "debug",
+      "question": "What is a breakpoint?",
+      "options": ["A code error", "A point where execution pauses", "A performance issue", "A security vulnerability"],
+      "correct": 1,
+      "explanation": "A breakpoint is an intentional stopping or pausing place in a program for debugging purposes.",
+      "link": "https://en.wikipedia.org/wiki/Breakpoint"
+    },
+    {
+      "category": "debug",
+      "question": "What is stack trace?",
+      "options": ["Code structure", "A report of function calls", "Performance data", "Memory usage"],
+      "correct": 1,
+      "explanation": "A stack trace is a report of the active stack frames at a certain point during program execution.",
+      "link": "https://en.wikipedia.org/wiki/Stack_trace"
+    },
+    {
+      "category": "debug",
+      "question": "What is logging?",
+      "options": ["User authentication", "Recording program events", "Data storage", "Network monitoring"],
+      "correct": 1,
+      "explanation": "Logging is the act of keeping a record of events that occur in a software application.",
+      "link": "https://en.wikipedia.org/wiki/Logging_(software)"
+    },
+    {
+      "category": "debug",
+      "question": "What is a race condition?",
+      "options": ["Fast execution", "Competing access to shared resources", "Network delay", "Memory leak"],
+      "correct": 1,
+      "explanation": "A race condition occurs when the system's behavior depends on the sequence or timing of uncontrollable events.",
+      "link": "https://en.wikipedia.org/wiki/Race_condition"
+    },
+    {
+      "category": "debug",
+      "question": "What is a memory leak?",
+      "options": ["Fast memory access", "Memory not being freed properly", "Memory overflow", "Memory corruption"],
+      "correct": 1,
+      "explanation": "A memory leak occurs when a program allocates memory but fails to release it back to the system.",
+      "link": "https://en.wikipedia.org/wiki/Memory_leak"
+    },
+    {
+      "category": "debug",
+      "question": "What is profiling?",
+      "options": ["User management", "Performance analysis", "Security scanning", "Code review"],
+      "correct": 1,
+      "explanation": "Profiling is a form of dynamic program analysis that measures program performance and resource usage.",
+      "link": "https://en.wikipedia.org/wiki/Profiling_(computer_programming)"
+    },
+    {
+      "category": "debug",
+      "question": "What is a deadlock?",
+      "options": ["System crash", "Mutual blocking of processes", "Network failure", "Memory exhaustion"],
+      "correct": 1,
+      "explanation": "A deadlock is a situation where two or more processes are unable to proceed because each is waiting for the other to release resources.",
+      "link": "https://en.wikipedia.org/wiki/Deadlock"
+    },
+    {
+      "category": "debug",
+      "question": "What is unit testing?",
+      "options": ["System testing", "Testing individual components", "Integration testing", "User testing"],
+      "correct": 1,
+      "explanation": "Unit testing is testing individual units or components of software to determine if they work correctly.",
+      "link": "https://en.wikipedia.org/wiki/Unit_testing"
+    },
+    {
+      "category": "debug",
+      "question": "What is a bug reproduction?",
+      "options": ["Creating bugs", "Recreating the conditions that cause a bug", "Fixing bugs", "Testing bugs"],
+      "correct": 1,
+      "explanation": "Bug reproduction involves recreating the exact conditions and steps that led to the occurrence of a bug.",
+      "link": "https://en.wikipedia.org/wiki/Software_bug#Bug_reproduction"
+    }
+  ],
+  "competent": [
+    {
+      "category": "kubernetes",
+      "question": "What is a Kubernetes Pod?",
+      "options": ["A container registry", "The smallest deployable unit", "A network policy", "A storage volume"],
+      "correct": 1,
+      "explanation": "A Pod is the smallest deployable unit in Kubernetes and represents one or more containers that share storage and network.",
+      "link": "https://kubernetes.io/docs/concepts/workloads/pods/"
+    }
+  ],
+  "senior": [
+    {
+      "category": "kubernetes",
+      "question": "What is a Kubernetes Operator?",
+      "options": ["A human operator", "Software that extends Kubernetes functionality", "A monitoring tool", "A deployment method"],
+      "correct": 1,
+      "explanation": "An Operator is a method of packaging, deploying, and managing Kubernetes applications using custom resources and controllers.",
+      "link": "https://kubernetes.io/docs/concepts/extend-kubernetes/operator/"
+    }
+  ]
+}
