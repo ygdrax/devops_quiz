@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="quiz-container">
+  <div class="hero-section">
+    <h1>DevOps Knowledge Quiz</h1>
+    <p>Test your DevOps skills across different technologies and experience levels</p>
+  </div>
+
+  <div class="level-selection" id="levelSelection">
+    <h2>Select Your Experience Level</h2>
+    <div class="level-buttons">
+      <button class="level-btn" data-level="junior">
+        <h3>Junior</h3>
+        <p>0-2 years experience</p>
+        <p>Basic concepts and fundamentals</p>
+      </button>
+      <button class="level-btn" data-level="competent">
+        <h3>Competent</h3>
+        <p>2-5 years experience</p>
+        <p>Intermediate knowledge and practices</p>
+      </button>
+      <button class="level-btn" data-level="senior">
+        <h3>Senior</h3>
+        <p>5+ years experience</p>
+        <p>Advanced concepts and architecture</p>
+      </button>
+    </div>
+  </div>
+
+  <div class="quiz-section" id="quizSection" style="display: none;">
+    <div class="quiz-header">
+      <h2 id="quizTitle">DevOps Quiz</h2>
+      <div class="quiz-progress">
+        <span id="questionCounter">Question 1 of 10</span>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="question-container">
+      <div class="question-category" id="questionCategory"></div>
+      <div class="question-text" id="questionText"></div>
+      <div class="options-container" id="optionsContainer"></div>
+      <button class="submit-btn" id="submitAnswer" disabled>Submit Answer</button>
+    </div>
+
+    <div class="answer-feedback" id="answerFeedback" style="display: none;">
+      <div class="feedback-content">
+        <div class="feedback-header" id="feedbackHeader"></div>
+        <div class="feedback-explanation" id="feedbackExplanation"></div>
+        <div class="feedback-link" id="feedbackLink"></div>
+        <button class="next-btn" id="nextQuestion">Next Question</button>
+      </div>
+    </div>
+
+    <div class="quiz-results" id="quizResults" style="display: none;">
+      <h2>Quiz Complete!</h2>
+      <div class="score-display" id="scoreDisplay"></div>
+      <div class="results-breakdown" id="resultsBreakdown"></div>
+      <button class="restart-btn" id="restartQuiz">Take Another Quiz</button>
+    </div>
+  </div>
+</div>
+
+<script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
